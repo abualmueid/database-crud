@@ -1,0 +1,122 @@
+.crud-form {
+    margin-bottom: 20px;
+}
+
+.crud-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.crud-form p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.crud-form button, input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.crud-form button:hover, input[type="submit"]:hover {
+    background-color: #005d80;
+}
+
+.crud-form form input[type="text"],
+.crud-form form input[type="email"] {
+    width: 25%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.crud-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.crud-table th, .crud-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.crud-table th {
+    background-color: #f2f2f2;
+}
+
+.crud-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.crud-table tr:hover {
+    background-color: #ddd;
+}
+
+.crud-table .edit-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #00aa88;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.crud-table .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #aa1c00d1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.crud-table .edit-btn:hover {
+    background-color: #01604d;
+}
+
+.crud-table .delete-btn:hover {
+    background-color: rgba(112, 19, 1, 0.82);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .crud-form button,
+    .crud-table button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .crud-form form input[type="text"],
+    .crud-form form input[type="email"] {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .crud-form h2 {
+        font-size: 20px;
+    }
+
+    .crud-form p {
+        font-size: 14px;
+    }
+
+    .crud-form button,
+    .crud-table button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .crud-form form input[type="text"],
+    .crud-form form input[type="email"] {
+        padding: 6px;
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "abualmueid/database-crud",
+    "description": "This package is for WP Database CRUD Operation.",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "DatabaseCrud\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abu Al Mueid"
+        }
+    ],
+    "require": {}
+}
